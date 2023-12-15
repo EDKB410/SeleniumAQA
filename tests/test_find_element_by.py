@@ -10,4 +10,4 @@ def test_login_page(browser):
     browser.find_element(By.CSS_SELECTOR, "button[type='submit']")
     browser.find_element(By.ID, "input-password")
     browser.find_element(By.XPATH, "//*[text()='OpenCart']")
-    time.sleep(2) # Для демонстрации3
+    time.sleep(2)  # Для демонстрации3

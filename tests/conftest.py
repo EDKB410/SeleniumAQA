@@ -19,7 +19,7 @@ def browser(request):
     if browser_name == "chrome":
         service = ChromeService()
         options = ChromeOptions()
-        options.add_argument("headless=new")  # Отключение визуализации браузера
+        # options.add_argument("headless=new")  # Отключение визуализации браузера
         driver = webdriver.Chrome(service=service, options=options)
 
     elif browser_name == "firefox":
