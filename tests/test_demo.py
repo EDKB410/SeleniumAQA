@@ -8,7 +8,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from tests.conftest import browser
 
 
-
 class TestAdminPage(LoginAdminPage):
 
     @pytest.fixture()
